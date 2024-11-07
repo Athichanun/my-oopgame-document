@@ -179,9 +179,9 @@ public class Game extends JPanel{
                     }else{
                         c.hp -= round;
                     }
-                    g2d.setStroke(new BasicStroke(10));
+                    g2d.setStroke(new BasicStroke(20));
                     g2d.setColor(Color.RED);
-                    g2d.drawRect(0, 0, 1580, 960);
+                    g2d.drawRect(0, 0, getWidth(), getHeight());
                 }
             }
             if(Event.checkHit(c, b)){
